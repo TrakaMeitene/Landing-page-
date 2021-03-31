@@ -8,8 +8,9 @@ background-color:hsl(257, 40%, 49%);
 background-image: url("bg-desktop.svg");
 background-repeat:no-repeat;
 background-size: cover;
-display:flex;
+
 flex-direction:column;
+height:auto;
 
 }
 header{
@@ -19,6 +20,10 @@ header{
 	height:50px;
 	
 }
+.logo{
+	
+	float:left;
+padding:70px 0px 0px 90px;}
 
 .container{
 	display:flex;
@@ -97,8 +102,12 @@ i:hover{
 @media (max-width:900px){
 	header{
 		width:100%;
-	height:auto;}
+	height:50px;}
 	
+	.logo{
+	width:40%;
+	padding-top:40px;
+	padding-left:40px;}
 	
 	.container{
 		width:80%;
@@ -106,9 +115,14 @@ i:hover{
 	flex-direction:column;}
 	
 	footer{
-		display:inline-block;
+		display:flex;
 		width:100%;
-	margin:auto;}
+	margin:auto;
+	justify-content:center;
+	margin-bottom:60px;}
+	
+.soc{
+margin-right:0px;}
 	
 	h1{
 	font-size:28px;
@@ -119,9 +133,20 @@ i:hover{
 		text-align:center;
 		align-items:center;
 	}
-	
+	img{
+	width:100%;}
 		
 	body{
-	background-image: url("bg-mobile.svg");}
+	background-image: url("bg-mobile.svg");
+	background-size:contain;}
+	
+	button:hover{
+	background-color:hsl(300, 69%, 71%);
+	color:white;
+}
+i:hover{
+	color:hsl(300, 69%, 71%);
+		border:1px solid hsl(300, 69%, 71%);
+}
 }
 	
