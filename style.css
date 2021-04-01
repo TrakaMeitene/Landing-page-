@@ -101,7 +101,7 @@ i:hover{
 @media (min-width:1000px){
 	body{
 			background-image: url("bg-desktop.svg");
-	background-size:100% 100%;
+	background-size:;
 	}
 }
 @media (max-width:900px){
