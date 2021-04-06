@@ -98,12 +98,17 @@ i:hover{
 	color:hsl(300, 69%, 71%);
 		border:1px solid hsl(300, 69%, 71%);
 }
-@media (min-width:1000px){
+
+@media (max-width:1470px){
 	body{
 			background-image: url("bg-desktop.svg");
-	background-size:;
+	
 	}
+	
+	.soc{
+	margin-bottom:107px;}
 }
+
 @media (max-width:900px){
 	
 	
